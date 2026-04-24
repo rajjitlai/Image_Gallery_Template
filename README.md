@@ -7,6 +7,8 @@ A modern, high-performance, and visually stunning image gallery template built w
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=flat-square&logo=tailwind-css)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
+![Preview](/assets/preview.png)
+
 ## ✨ Features
 
 - 🚀 **Next.js 16 (App Router)** - Leveraging the latest features and Turbopack.
