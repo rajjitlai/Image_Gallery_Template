@@ -1,12 +1,22 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = {
-    reactStrictMode: true,
-    images: {
-        domains: ['bit.ly'],
-    },
-    entry: {
-        client: './src/app/page.tsx',
-    },
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'bit.ly',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+  },
 }
+
+export default nextConfig

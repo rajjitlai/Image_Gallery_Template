@@ -2,6 +2,13 @@
   "name": "with-tailwindcss-app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "author": "Rajjit Laishram",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajjitlai/Image_Gallery_Template"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,19 +17,24 @@
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "next": "13.5.4",
-    "react": "^18",
-    "react-dom": "^18"
+    "@tailwindcss/postcss": "4.2.4",
+    "clsx": "2.1.1",
+    "framer-motion": "12.38.0",
+    "lenis": "1.3.23",
+    "next": "16.2.4",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "tailwind-merge": "3.5.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.4",
-    "postcss": "^8",
-    "tailwindcss": "^3",
-    "typescript": "^5"
+    "@types/node": "25.6.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "autoprefixer": "10.5.0",
+    "eslint": "9.21.0",
+    "eslint-config-next": "16.2.4",
+    "postcss": "8.5.10",
+    "tailwindcss": "4.2.4",
+    "typescript": "6.0.3"
   }
 }
